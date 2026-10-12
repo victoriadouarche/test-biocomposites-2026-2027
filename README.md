@@ -26,8 +26,6 @@ L'application est un seul fichier (`index.html`) hébergé par GitHub Pages. Les
 6. Attendre une à deux minutes. Le lien de l'application s'affiche en haut de la page Pages.
 7. *(Optionnel)* Pour permettre à d'autres personnes de mettre à jour `donnees.json` : **Settings** > **Collaborators** > **Add people**.
 
-> **Confidentialité :** avec un dépôt public, `index.html` et `donnees.json` sont lisibles par toute personne qui connaît l'adresse. Ne pas y mettre de résultats confidentiels. Pour un dépôt privé, vérifier les conditions de GitHub Pages pour votre type de compte.
-
 ---
 
 ## 3. Utiliser l'application
