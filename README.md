@@ -6,7 +6,7 @@ Outil pour suivre les plaques testées (composites et impression 3D) : compositi
 
 ## 1. Principe de fonctionnement
 
-L'application est un seul fichier (`index.html`) hébergé gratuitement par GitHub Pages. Les données de référence de l'équipe sont dans un second fichier, `donnees.json`, placé à côté.
+L'application est un seul fichier (`index.html`) hébergé par GitHub Pages. Les données de référence de l'équipe sont dans un second fichier, `donnees.json`, placé à côté.
 
 - Quand on ouvre l'application, elle charge automatiquement `donnees.json`.
 - Les modifications faites dans l'application sont enregistrées **dans le navigateur de la personne** qui les fait.
