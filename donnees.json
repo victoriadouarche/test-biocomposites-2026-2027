@@ -1,0 +1,145 @@
+{
+ "cfg": {
+  "fibres": [
+   "Carbone vierge (référence)",
+   "Carbone recyclé",
+   "Lin",
+   "Chanvre"
+  ],
+  "resines": [
+   "Époxy de référence",
+   "Biosourcée (SwissComposites)",
+   "Elium"
+  ],
+  "procedes": [
+   "Infusion sous vide"
+  ],
+  "statuts": [
+   "À fabriquer",
+   "Fabriquée",
+   "Testée"
+  ],
+  "materiaux3d": [
+   "PLA",
+   "PETG",
+   "ABS",
+   "PA12",
+   "PA12-CF",
+   "TPU"
+  ],
+  "procedes3d": [
+   "FDM",
+   "SLA",
+   "SLS"
+  ],
+  "motifs": [
+   "Grille",
+   "Gyroïde",
+   "Nid d’abeille",
+   "Triangles"
+  ],
+  "orients": [
+   "À plat (XY)",
+   "Sur la tranche (XZ)",
+   "Debout (Z)"
+  ],
+  "props": [
+   {
+    "id": "p1",
+    "nom": "Résistance en traction",
+    "unite": "MPa",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "p2",
+    "nom": "Module en traction",
+    "unite": "GPa",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "p3",
+    "nom": "Résistance en flexion",
+    "unite": "MPa",
+    "norme": "ASTM D7264"
+   },
+   {
+    "id": "p4",
+    "nom": "Module en flexion",
+    "unite": "GPa",
+    "norme": "ASTM D7264"
+   },
+   {
+    "id": "p5",
+    "nom": "Amortissement tan δ (DMA)",
+    "unite": "-",
+    "norme": "ISO 6721-5"
+   },
+   {
+    "id": "p6",
+    "nom": "Absorption d'humidité",
+    "unite": "%",
+    "norme": ""
+   }
+  ]
+ },
+ "plaques": [
+  {
+   "id": "a1",
+   "nom": "Référence carbone",
+   "fibre": "Carbone vierge (référence)",
+   "resine": "Époxy de référence",
+   "layup": "3 plis CF 200 g/m² 3k twill",
+   "procede": "Infusion sous vide",
+   "vfv": "50",
+   "vf": "",
+   "poro": "",
+   "ep": "",
+   "date": "",
+   "statut": "À fabriquer",
+   "ref": true,
+   "notes": "Épaisseur théorique ≈ 0,67 mm",
+   "res": {}
+  },
+  {
+   "id": "a2",
+   "nom": "Lin + PowerRibs",
+   "fibre": "Lin",
+   "resine": "Époxy de référence",
+   "layup": "2 plis ampliTex™ 245 g/m² twill 2/2 + 1 couche PowerRibs™ 235 g/m²",
+   "procede": "Infusion sous vide",
+   "vfv": "33",
+   "vf": "",
+   "poro": "",
+   "ep": "",
+   "date": "",
+   "statut": "À fabriquer",
+   "ref": false,
+   "notes": "Épaisseur théorique ≈ 1,47 mm",
+   "res": {}
+  },
+  {
+   "id": "a3",
+   "nom": "Plaque test impression 3D",
+   "type": "3d",
+   "fibre": "",
+   "resine": "",
+   "layup": "",
+   "procede": "",
+   "vfv": "",
+   "vf": "",
+   "poro": "",
+   "ep": "",
+   "date": "",
+   "statut": "À fabriquer",
+   "ref": false,
+   "notes": "À compléter : matériau et paramètres d’impression",
+   "res": {},
+   "imp": {
+    "materiau": "PLA",
+    "procede3d": "FDM",
+    "orientation": "À plat (XY)"
+   }
+  }
+ ],
+ "seed3d": 1
+}
