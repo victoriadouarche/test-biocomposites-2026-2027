@@ -30,6 +30,9 @@ L'application est un seul fichier (`index.html`) hébergé par GitHub Pages. Les
 
 ## 3. Utiliser l'application
 
+### Acces a l'application
+Aller dans l'onglet **Deployement** pour avoir acces à l'interface 
+
 ### Onglet « Plaques »
 Liste de toutes les plaques, avec recherche et filtres par statut et par type.
 - **Nouvelle plaque** : ouvre la fiche à remplir.
