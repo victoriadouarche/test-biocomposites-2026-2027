@@ -16,19 +16,7 @@ L'application est un seul fichier (`index.html`) hébergé par GitHub Pages. Les
 
 ---
 
-## 2. Mise en place (une seule fois, par la personne qui gère le dépôt)
-
-1. Créer un compte sur [github.com](https://github.com) si besoin.
-2. Cliquer sur le **+** en haut à droite, puis **New repository**. Choisir un nom (par exemple `base-composites`), cocher **Public** et **Add a README**, puis **Create repository**.
-3. Sur l'ordinateur, renommer le fichier `base_composites.html` en **`index.html`**.
-4. Dans le dépôt : **Add file** > **Upload files**, glisser `index.html`, puis **Commit changes**.
-5. Aller dans **Settings** > **Pages**. Sous *Build and deployment*, choisir **Deploy from a branch**, la branche **main**, le dossier **/ (root)**, puis **Save**.
-6. Attendre une à deux minutes. Le lien de l'application s'affiche en haut de la page Pages.
-7. *(Optionnel)* Pour permettre à d'autres personnes de mettre à jour `donnees.json` : **Settings** > **Collaborators** > **Add people**.
-
----
-
-## 3. Utiliser l'application
+## 2. Utiliser l'application
 
 ### Acces a l'application
 Aller dans l'onglet **Deployement** pour avoir acces à l'interface 
@@ -70,7 +58,7 @@ Une valeur déjà utilisée par une plaque ne peut pas être supprimée tant que
 
 ---
 
-## 4. Partager et mettre à jour les données de l'équipe
+## 3. Partager et mettre à jour les données de l'équipe
 
 ### Pour la personne qui tient la base
 1. Faire ses modifications dans l'application.
@@ -90,7 +78,7 @@ Dans **Paramètres**, **Restaurer une sauvegarde** charge un fichier JSON dans l
 
 ---
 
-## 5. Exporter vers Excel
+## 4. Exporter vers Excel
 
 Le bouton **Exporter vers Excel (.xlsx)** en haut de la page télécharge un classeur de trois onglets :
 - **Plaques** : une ligne par plaque ;
@@ -104,7 +92,7 @@ Un export **CSV** est aussi disponible dans Paramètres.
 
 ---
 
-## 6. Questions fréquentes
+## 6. Questions 
 
 **Mes modifications ont disparu.**
 Elles sont enregistrées dans le navigateur utilisé. Elles disparaissent si on change de navigateur ou d'ordinateur, ou si on vide les données du navigateur. Pensez à utiliser **Sauvegarder (JSON)** régulièrement.
