@@ -20,7 +20,9 @@ L'application est un seul fichier (`index.html`) hébergé par GitHub Pages. Les
 
 ### Acces a l'application
 - Lien sous about (à droite)
+  
   Ou bien
+
 - Aller dans l'onglet  **Actions** puis **Deployement** pour avoir acces à l'interface 
 
 ### Onglet « Plaques »
