@@ -82,7 +82,32 @@ Dans **Paramètres**, **Restaurer une sauvegarde** charge un fichier JSON dans l
 
 ---
 
-## 4. Exporter vers Excel
+## 4. Règles de mise à jour (à lire avant de déposer un fichier)
+
+`donnees.json` contient **toute** la base. Quand on dépose un nouveau fichier, il **remplace** l'ancien : si deux personnes déposent chacune leur version, la dernière efface les saisies de l'autre. D'où ces règles.
+
+**Responsables de la mise à jour :** *(à compléter : 1 à 3 personnes maximum)*
+
+1. **Prévenir avant de commencer.** Envoyer un message dans le groupe de l'équipe, du type « je mets à jour la base », pour que personne d'autre ne dépose en même temps.
+2. **Partir de la dernière version.** Ouvrir le lien du site. Si un bandeau « nouvelle version disponible » s'affiche, cliquer sur **Charger la version du dépôt**.
+3. **Saisir les nouveaux résultats**, puis cliquer **tout de suite** sur **Sauvegarder (JSON)** dans Paramètres.
+4. **Déposer `donnees.json`** dans le dépôt : **Add file** > **Upload files** > **Commit changes**. Écrire dans le champ du commit ce qui a été ajouté (par exemple « Résultats traction lin, plaques 3 et 4 »), pour s'y retrouver dans l'historique.
+5. **Prévenir que c'est terminé** : « base à jour ».
+
+**Pour tous les autres :**
+- Consulter, filtrer, faire des graphiques et exporter vers Excel ne demande aucune règle particulière.
+- Les saisies faites dans son navigateur ne sont pas partagées. Les résultats à ajouter à la base sont à transmettre à un responsable.
+
+**À ne pas faire :**
+- Ne déposer que `donnees.json`. Ne pas modifier ni supprimer `index.html`, qui est l'application elle-même.
+- Ne pas déposer un fichier `donnees.json` plus ancien que celui du dépôt.
+- Ne pas utiliser **Tout réinitialiser** avant d'avoir sauvegardé un JSON.
+
+**En cas d'erreur (un fichier écrasé par erreur) :** GitHub garde toutes les versions. Ouvrir `donnees.json` dans le dépôt, cliquer sur **History**, ouvrir la version voulue, la télécharger, puis la redéposer comme à l'étape 4.
+
+---
+
+## 5. Exporter vers Excel
 
 Le bouton **Exporter vers Excel (.xlsx)** en haut de la page télécharge un classeur de trois onglets :
 - **Plaques** : une ligne par plaque ;
@@ -96,7 +121,7 @@ Un export **CSV** est aussi disponible dans Paramètres.
 
 ---
 
-## 6. Questions 
+## 6. Questions fréquentes
 
 **Mes modifications ont disparu.**
 Elles sont enregistrées dans le navigateur utilisé. Elles disparaissent si on change de navigateur ou d'ordinateur, ou si on vide les données du navigateur. Pensez à utiliser **Sauvegarder (JSON)** régulièrement.
