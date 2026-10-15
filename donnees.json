@@ -3,13 +3,11 @@
   "fibres": [
    "Carbone vierge (référence)",
    "Carbone recyclé",
-   "Lin",
-   "Chanvre"
+   "Lin"
   ],
   "resines": [
    "Époxy de référence",
-   "Biosourcée (SwissComposites)",
-   "Elium"
+   "Biosourcée (SwissComposites)"
   ],
   "procedes": [
    "Infusion sous vide"
@@ -21,20 +19,13 @@
   ],
   "materiaux3d": [
    "PLA",
-   "PETG",
-   "ABS",
-   "PA12",
-   "PA12-CF",
-   "TPU"
+   "PETG"
   ],
   "procedes3d": [
-   "FDM",
-   "SLA",
-   "SLS"
+   "FDM"
   ],
   "motifs": [
    "Grille",
-   "Gyroïde",
    "Nid d’abeille",
    "Triangles"
   ],
@@ -47,26 +38,14 @@
    {
     "id": "p1",
     "nom": "Résistance en traction",
-    "unite": "MPa",
+    "unite": "GPA",
     "norme": "ASTM D3039"
    },
    {
     "id": "p2",
     "nom": "Module en traction",
-    "unite": "GPa",
+    "unite": "GPA",
     "norme": "ASTM D3039"
-   },
-   {
-    "id": "p3",
-    "nom": "Résistance en flexion",
-    "unite": "MPa",
-    "norme": "ASTM D7264"
-   },
-   {
-    "id": "p4",
-    "nom": "Module en flexion",
-    "unite": "GPa",
-    "norme": "ASTM D7264"
    },
    {
     "id": "p5",
@@ -79,12 +58,43 @@
     "nom": "Absorption d'humidité",
     "unite": "%",
     "norme": ""
+   },
+   {
+    "id": "pxzd6jro",
+    "nom": "In plane shear modulus G12",
+    "unite": "GPA",
+    "norme": "ASTM D3518 "
+   },
+   {
+    "id": "pmxsq9ad",
+    "nom": "E1",
+    "unite": "GPA",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "p3p8aeef",
+    "nom": "E2",
+    "unite": "GPA",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "poa8gn9d",
+    "nom": "Poisson coef",
+    "unite": "-",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "puqok3cy",
+    "nom": "densité ",
+    "unite": "kg/m3",
+    "norme": ""
    }
   ]
  },
  "plaques": [
   {
    "id": "a1",
+   "ts": 0,
    "nom": "Référence carbone",
    "fibre": "Carbone vierge (référence)",
    "resine": "Époxy de référence",
@@ -98,10 +108,20 @@
    "statut": "À fabriquer",
    "ref": true,
    "notes": "Épaisseur théorique ≈ 0,67 mm",
-   "res": {}
+   "res": {},
+   "type": "composite",
+   "imp": {},
+   "co2": {
+    "fibre": null,
+    "resine": null,
+    "procede": null,
+    "transport": null,
+    "fin": null
+   }
   },
   {
    "id": "a2",
+   "ts": 0,
    "nom": "Lin + PowerRibs",
    "fibre": "Lin",
    "resine": "Époxy de référence",
@@ -115,12 +135,21 @@
    "statut": "À fabriquer",
    "ref": false,
    "notes": "Épaisseur théorique ≈ 1,47 mm",
-   "res": {}
+   "res": {},
+   "type": "composite",
+   "imp": {},
+   "co2": {
+    "fibre": null,
+    "resine": null,
+    "procede": null,
+    "transport": null,
+    "fin": null
+   }
   },
   {
    "id": "a3",
+   "ts": 0,
    "nom": "Plaque test impression 3D",
-   "type": "3d",
    "fibre": "",
    "resine": "",
    "layup": "",
@@ -134,10 +163,23 @@
    "ref": false,
    "notes": "À compléter : matériau et paramètres d’impression",
    "res": {},
+   "type": "3d",
    "imp": {
-    "materiau": "PLA",
+    "materiau": "PETG",
     "procede3d": "FDM",
-    "orientation": "À plat (XY)"
+    "couche": "",
+    "remplissage": "",
+    "motif": "",
+    "orientation": "À plat (XY)",
+    "buse": "",
+    "vitesse": ""
+   },
+   "co2": {
+    "fibre": null,
+    "resine": null,
+    "procede": null,
+    "transport": null,
+    "fin": null
    }
   }
  ],
