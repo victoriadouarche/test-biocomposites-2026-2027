@@ -1,13 +1,19 @@
 {
  "cfg": {
   "fibres": [
-   "Carbone vierge (référence)",
-   "Carbone recyclé",
-   "Lin"
+   "CF Twill 100 GSM",
+   "CF Twill 200 GSM",
+   "CF Biaxial 100 GSM",
+   "CF Biaxial 220GSM",
+   "AmpliTexTM Twill 245 GSM",
+   "PowerRibsTM 235 GSM",
+   "Bcomp Biaxial (SSB)",
+   "carbone recyclé"
   ],
   "resines": [
-   "Époxy de référence",
-   "Biosourcée (SwissComposites)"
+   "Araldyte 1564",
+   "Infugreen 810",
+   "Epoxy"
   ],
   "procedes": [
    "Infusion sous vide"
@@ -18,7 +24,6 @@
    "Testée"
   ],
   "materiaux3d": [
-   "PLA",
    "PETG"
   ],
   "procedes3d": [
@@ -36,95 +41,74 @@
   ],
   "props": [
    {
-    "id": "p1",
-    "nom": "Résistance en traction",
-    "unite": "GPA",
-    "norme": "ASTM D3039"
-   },
-   {
     "id": "p2",
-    "nom": "Module en traction",
-    "unite": "GPA",
+    "nom": "E(0/90)",
+    "unite": "GPa",
     "norme": "ASTM D3039"
    },
    {
-    "id": "p5",
-    "nom": "Amortissement tan δ (DMA)",
-    "unite": "-",
-    "norme": "ISO 6721-5"
+    "id": "ps6s06tq",
+    "nom": "Pmax",
+    "unite": "N",
+    "norme": "ASTM D3039"
    },
    {
-    "id": "p6",
-    "nom": "Absorption d'humidité",
+    "id": "p8mpa0is",
+    "nom": "εx fail",
+    "unite": " %",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "pr4scyjz",
+    "nom": "Poisson coef ν12 ",
+    "unite": "-",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "prkqzwtz",
+    "nom": "σ Ultimate",
+    "unite": "MPa",
+    "norme": "ASTM D3039"
+   },
+   {
+    "id": "ptd9to65",
+    "nom": "P(45°)max",
+    "unite": "N",
+    "norme": "ASTM D3518"
+   },
+   {
+    "id": "p532pxzb",
+    "nom": "E(45°)",
+    "unite": "GPa",
+    "norme": "ASTM D3518"
+   },
+   {
+    "id": "py532vzi",
+    "nom": "G12",
+    "unite": "GPa",
+    "norme": "ASTM D3518"
+   },
+   {
+    "id": "p952o4qv",
+    "nom": "εx(45°)fail",
     "unite": "%",
-    "norme": ""
+    "norme": "ASTM D3518"
    },
    {
-    "id": "pxzd6jro",
-    "nom": "In plane shear modulus G12",
-    "unite": "GPA",
-    "norme": "ASTM D3518 "
-   },
-   {
-    "id": "pmxsq9ad",
-    "nom": "E1",
-    "unite": "GPA",
-    "norme": "ASTM D3039"
-   },
-   {
-    "id": "p3p8aeef",
-    "nom": "E2",
-    "unite": "GPA",
-    "norme": "ASTM D3039"
-   },
-   {
-    "id": "poa8gn9d",
-    "nom": "Poisson coef",
-    "unite": "-",
-    "norme": "ASTM D3039"
-   },
-   {
-    "id": "puqok3cy",
-    "nom": "densité ",
-    "unite": "kg/m3",
-    "norme": ""
+    "id": "pt0fb5qc",
+    "nom": "σ(45°)Ultimate",
+    "unite": "Mpa",
+    "norme": "ASTM D3518"
    }
   ]
  },
  "plaques": [
   {
-   "id": "a1",
-   "ts": 0,
-   "nom": "Référence carbone",
-   "fibre": "Carbone vierge (référence)",
-   "resine": "Époxy de référence",
-   "layup": "3 plis CF 200 g/m² 3k twill",
-   "procede": "Infusion sous vide",
-   "vfv": "50",
-   "vf": "",
-   "poro": "",
-   "ep": "",
-   "date": "",
-   "statut": "À fabriquer",
-   "ref": true,
-   "notes": "Épaisseur théorique ≈ 0,67 mm",
-   "res": {},
-   "type": "composite",
-   "imp": {},
-   "co2": {
-    "fibre": null,
-    "resine": null,
-    "procede": null,
-    "transport": null,
-    "fin": null
-   }
-  },
-  {
    "id": "a2",
    "ts": 0,
    "nom": "Lin + PowerRibs",
-   "fibre": "Lin",
-   "resine": "Époxy de référence",
+   "fibre": "AmpliTexTM Twill 245 GSM",
+   "resine": "Araldyte 1564",
    "layup": "2 plis ampliTex™ 245 g/m² twill 2/2 + 1 couche PowerRibs™ 235 g/m²",
    "procede": "Infusion sous vide",
    "vfv": "33",
@@ -174,6 +158,215 @@
     "buse": "",
     "vitesse": ""
    },
+   "co2": {
+    "fibre": null,
+    "resine": null,
+    "procede": null,
+    "transport": null,
+    "fin": null
+   }
+  },
+  {
+   "id": "uxtgos4",
+   "ts": 1792073870262,
+   "nom": "Twill 200 GSM Guillaume",
+   "fibre": "CF Twill 200 GSM",
+   "resine": "Epoxy",
+   "layup": "",
+   "procede": "Infusion sous vide",
+   "vfv": "",
+   "vf": "",
+   "poro": "",
+   "ep": "2.5",
+   "date": "2025-01-01",
+   "statut": "Testée",
+   "ref": true,
+   "notes": "",
+   "res": {
+    "p2": {
+     "m": 41.9,
+     "sd": 2.18,
+     "n": 5
+    },
+    "ps6s06tq": {
+     "m": 33160,
+     "sd": 2848,
+     "n": 5
+    },
+    "p8mpa0is": {
+     "m": 1.32,
+     "sd": 0.28,
+     "n": 5
+    },
+    "pr4scyjz": {
+     "m": 0.016,
+     "sd": 0.0053,
+     "n": 5
+    },
+    "prkqzwtz": {
+     "m": 442,
+     "sd": 38,
+     "n": 5
+    },
+    "ptd9to65": {
+     "m": 10640,
+     "sd": 507,
+     "n": 5
+    },
+    "p532pxzb": {
+     "m": 8.268,
+     "sd": 0.805,
+     "n": 5
+    },
+    "py532vzi": {
+     "m": 4.24,
+     "sd": 0.005,
+     "n": 5
+    },
+    "p952o4qv": {
+     "m": 21.26,
+     "sd": 2.6,
+     "n": 5
+    },
+    "pt0fb5qc": {
+     "m": 142.8,
+     "sd": 6.98,
+     "n": 5
+    }
+   },
+   "type": "composite",
+   "imp": {},
+   "co2": {
+    "fibre": null,
+    "resine": null,
+    "procede": null,
+    "transport": null,
+    "fin": null
+   }
+  },
+  {
+   "id": "kx9xve2",
+   "ts": 1792073892421,
+   "nom": "Biaxial 220 GSM Guillaume",
+   "fibre": "CF Biaxial 220GSM",
+   "resine": "Epoxy",
+   "layup": " ",
+   "procede": "Infusion sous vide",
+   "vfv": "",
+   "vf": "",
+   "poro": "",
+   "ep": "2.5",
+   "date": "2025-01-01",
+   "statut": "Testée",
+   "ref": false,
+   "notes": "",
+   "res": {
+    "p2": {
+     "m": 11.36,
+     "sd": 0.305,
+     "n": 5
+    },
+    "ps6s06tq": {
+     "m": 12240,
+     "sd": 182,
+     "n": 5
+    },
+    "p8mpa0is": {
+     "m": 10.64,
+     "sd": 1.8,
+     "n": 5
+    },
+    "pr4scyjz": {
+     "m": 0.2435,
+     "sd": 0.0291,
+     "n": 5
+    },
+    "prkqzwtz": {
+     "m": 163.2,
+     "sd": 2.17,
+     "n": 5
+    },
+    "ptd9to65": {
+     "m": 36560,
+     "sd": 2628,
+     "n": 5
+    },
+    "p532pxzb": {
+     "m": 42.54,
+     "sd": 3.25,
+     "n": 5
+    },
+    "py532vzi": {
+     "m": 17.1,
+     "sd": 1.31,
+     "n": 5
+    },
+    "p952o4qv": {
+     "m": 1.12,
+     "sd": 0.084,
+     "n": 5
+    },
+    "pt0fb5qc": {
+     "m": 486.8,
+     "sd": 35.2,
+     "n": 5
+    }
+   },
+   "type": "composite",
+   "imp": {},
+   "co2": {
+    "fibre": null,
+    "resine": null,
+    "procede": null,
+    "transport": null,
+    "fin": null
+   }
+  },
+  {
+   "id": "s7tczrj",
+   "ts": 1792074012767,
+   "nom": "Biaxial 100 GSM Guillaume",
+   "fibre": "CF Biaxial 100 GSM",
+   "resine": "Epoxy",
+   "layup": " ",
+   "procede": "Infusion sous vide",
+   "vfv": "",
+   "vf": "",
+   "poro": "",
+   "ep": "2.5",
+   "date": "2025-01-01",
+   "statut": "Testée",
+   "ref": false,
+   "notes": "",
+   "res": {
+    "p2": {
+     "m": 8.46,
+     "sd": 0.603,
+     "n": 5
+    },
+    "ps6s06tq": {
+     "m": 11600,
+     "sd": 400,
+     "n": 5
+    },
+    "p8mpa0is": {
+     "m": 19.8,
+     "sd": 3.5,
+     "n": 5
+    },
+    "pr4scyjz": {
+     "m": 0.491,
+     "sd": 0.048,
+     "n": 5
+    },
+    "prkqzwtz": {
+     "m": 154.8,
+     "sd": 5.59,
+     "n": 5
+    }
+   },
+   "type": "composite",
+   "imp": {},
    "co2": {
     "fibre": null,
     "resine": null,
